@@ -30,6 +30,12 @@ void escriure(int N, variables v[], ofstream & dades){
 
 int main(){
 	
+	//dades inicials
+	int Rt=6378; //Radi de la terra en Km
+	int R_Terra=150000000;  //Radi de l'òrbita de la terra respecte el Sol en Km
+	int R_Jupiter=778500000;  //Radi de l'òrbita de la terra respecte el Sol en Km
+	int R_Saturn=1429400000;  //Radi de l'òrbita de la terra respecte el Sol en Km
+	
 	variables v[50];
 	int N;
 	cout<<"Indica el nombre de valors"<<endl;
