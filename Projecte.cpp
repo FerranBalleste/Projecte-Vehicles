@@ -35,6 +35,7 @@ int main(){
 	int R_Terra=150000000;  //Radi de l'òrbita de la terra respecte el Sol en Km
 	int R_Jupiter=778500000;  //Radi de l'òrbita de la terra respecte el Sol en Km
 	int R_Saturn=1429400000;  //Radi de l'òrbita de la terra respecte el Sol en Km
+	int M_Terra=2000;
 	
 	variables v[50];
 	int N;
